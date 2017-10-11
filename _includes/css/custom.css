@@ -1,3 +1,53 @@
+/* layout */
+.left {
+  text-align:left;
+}
+.right {
+  text-align:right;
+}
+ul {
+  list-style-type: none;
+  padding-left: 4% !important;
+}
+/* text sizes */
+.container p.text-mega {
+  font-size: 700%;
+  line-height: normal;
+  text-align: right;
+  color: #fab125;
+  font-weight: bold;
+  font-style: italic;
+}
+/* images */
+img.roundcorner {
+  border-radius: 25px;
+}
+/* overlay */
+.videobox { position: relative; }
+.videobox span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: url(/img/Iconsmind-Outline-Play-Music.ico) no-repeat center center;
+  background-size: 100px 100px;
+}
+
+/* background images for sections */
+/* intro */
+#intro {
+  background: url(/img/julian-gentilezza-351183.jpg) no-repeat center center;
+  background-position: top;
+  background-size: 100%;
+}
+
+
+/* purecss.io */
+
+/* buttons */
 .button-success, .button-error, .button-warning, .button-secondary {
   color: white;
   border-radius: 4px;

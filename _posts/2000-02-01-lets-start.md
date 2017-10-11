@@ -6,9 +6,15 @@ style: center
 fa-icon: rocket
 ---
 
-# LET'S START
-
-<span class="fa-stack subtlecircle" style="font-size:100px; background:rgba(255,166,0,0.1)">
-  <i class="fa fa-circle fa-stack-2x text-white"></i>
-  <i class="fa fa-play-circle fa-stack-1x text-orange"></i>
-</span>
+<div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2">
+      <div class="videobox">
+      <img class="roundcorner" src="/img/alexander-redl-185764.jpg" />
+      <span></span>
+      </div>
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2">
+      <h1>LET'S START</h1>
+      <a class="pure-button button-warning" href="#coaching">ZUM COACHING</a>
+    </div>
+</div>
